@@ -180,7 +180,7 @@
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
-  margin-bottom: 0 0 20px 0;
+  margin: 0 0 20px 0;
   padding: 0;
 }
 
@@ -193,7 +193,7 @@
 /* feynman block */
 /* add top-padding and box-sizing to ensure height of block is like the brief */
 .feynman {
-  height: 890px;
+  min-height: 890px;
   position: relative;
   background-color: #f2f2f2;
   box-sizing: border-box;
